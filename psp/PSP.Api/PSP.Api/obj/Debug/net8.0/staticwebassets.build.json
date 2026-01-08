@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "APdjJjU30n0qFfRkXiKMa3ZwjJygSQlEX3dOmXxCi+Q=",
+  "Source": "PSP.Api",
+  "BasePath": "_content/PSP.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
