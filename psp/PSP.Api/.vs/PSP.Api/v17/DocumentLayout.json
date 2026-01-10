@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\models\\bank\\bankinitresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\models\\bank\\bankinitresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\controllers\\paycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\controllers\\paycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\models\\bank\\bankinitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\models\\bank\\bankinitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\models\\initpaymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\models\\initpaymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\models\\initpaymentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\models\\initpaymentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\models\\bank\\bankinitresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\models\\bank\\bankinitresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\infrastructure\\paymentstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\infrastructure\\paymentstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\psp\\psp.api\\psp.api\\models\\initpaymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF93A23A-2AC7-4B92-8262-89B48535BF55}|PSP.Api\\PSP.Api.csproj|solutionrelative:psp.api\\models\\initpaymentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,20 +62,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "PaymentStore.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Infrastructure\\PaymentStore.cs",
+              "RelativeDocumentMoniker": "PSP.Api\\Infrastructure\\PaymentStore.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Infrastructure\\PaymentStore.cs",
+              "RelativeToolTip": "PSP.Api\\Infrastructure\\PaymentStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T19:00:16.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PayController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Controllers\\PayController.cs",
+              "RelativeDocumentMoniker": "PSP.Api\\Controllers\\PayController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Controllers\\PayController.cs",
+              "RelativeToolTip": "PSP.Api\\Controllers\\PayController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T18:13:38.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PaymentsController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Controllers\\PaymentsController.cs",
               "RelativeDocumentMoniker": "PSP.Api\\Controllers\\PaymentsController.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Controllers\\PaymentsController.cs",
               "RelativeToolTip": "PSP.Api\\Controllers\\PaymentsController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBkAAABDAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T13:02:59.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Program.cs",
               "RelativeDocumentMoniker": "PSP.Api\\Program.cs",
@@ -80,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BankInitResponse.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Models\\Bank\\BankInitResponse.cs",
               "RelativeDocumentMoniker": "PSP.Api\\Models\\Bank\\BankInitResponse.cs",
@@ -93,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BankInitRequest.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Models\\Bank\\BankInitRequest.cs",
               "RelativeDocumentMoniker": "PSP.Api\\Models\\Bank\\BankInitRequest.cs",
@@ -106,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "InitPaymentResponse.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Models\\InitPaymentResponse.cs",
               "RelativeDocumentMoniker": "PSP.Api\\Models\\InitPaymentResponse.cs",
@@ -119,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "InitPaymentRequest.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Models\\InitPaymentRequest.cs",
               "RelativeDocumentMoniker": "PSP.Api\\Models\\InitPaymentRequest.cs",
@@ -127,8 +161,7 @@
               "RelativeToolTip": "PSP.Api\\Models\\InitPaymentRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T12:59:36.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T12:59:36.618Z"
             }
           ]
         }

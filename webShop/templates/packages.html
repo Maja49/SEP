@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Packages</title></head>
+<body>
+  <p>Ulogovan/a kao: <b>{{ user }}</b> | <a href="{{ url_for('history') }}">History</a> | <a href="{{ url_for('logout') }}">Logout</a></p>
+  <h2>Paketi za iznajmljivanje</h2>
+
+  <ul>
+    {% for p in packages %}
+      <li>
+        <b>{{ p.name }}</b> — {{ p.price }} {{ p.currency }}
+        <a href="{{ url_for('buy_package', package_id=p.id) }}">Kupi</a>
+
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if session.get("is_admin") %}
+    | <a href="{{ url_for('admin_panel') }}">Admin</a>
+  {% endif %}
+
+</body>
+</html>

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure;
+using PSP.Api.Infrastructure;
 using PSP.Api.Models;
 using PSP.Api.Models.Bank;
 
@@ -12,7 +13,7 @@ namespace PSP.Api.Controllers
         [HttpPost("init")]
         public async Task<IActionResult> InitPayment([FromBody] InitPaymentRequest request, [FromServices] IHttpClientFactory httpClientFactory)
         {
-            var paymentId = Guid.NewGuid().ToString();
+            //var paymentId = Guid.NewGuid().ToString();
 
             var bankRequest = new BankInitRequest
             {
@@ -35,8 +36,17 @@ namespace PSP.Api.Controllers
                 return StatusCode(502, "Bank error");
             }
 
-            var bankResponse = await response.Content
-        .ReadFromJsonAsync<BankInitResponse>();
+            var bankResponse = await response.Content.ReadFromJsonAsync<BankInitResponse>();
+            // request.MerchantOrderId = "ORD-17"
+            if (!string.IsNullOrWhiteSpace(request.MerchantOrderId) &&
+                request.MerchantOrderId.StartsWith("ORD-") &&
+                int.TryParse(request.MerchantOrderId.Substring(4), out var orderId))
+            {
+                PaymentStore.SetOrderId(bankResponse.PaymentId, orderId);
+            }
+
+            PaymentStore.SetBankUrl(bankResponse.PaymentId, bankResponse.PaymentUrl);
+
 
             return Ok(new
             {

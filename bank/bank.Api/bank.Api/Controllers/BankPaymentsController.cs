@@ -1,5 +1,7 @@
 ﻿using bank.Api.Models;
 using Microsoft.AspNetCore.Mvc;
+using bank.Api.Infrastructure;
+
 
 namespace bank.Api.Controllers
 {
@@ -16,6 +18,8 @@ namespace bank.Api.Controllers
             }
 
             var paymentId = Guid.NewGuid().ToString();
+            BankPaymentStore.Create(paymentId, request.Amount, request.Currency);
+
 
             var paymentUrl = $"https://localhost:7094/pay/{paymentId}";
 

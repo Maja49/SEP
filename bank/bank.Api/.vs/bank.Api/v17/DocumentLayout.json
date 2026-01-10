@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\controllers\\paycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\infrastructure\\bankpaymentstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\infrastructure\\bankpaymentstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\controllers\\bankpaymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\controllers\\bankpaymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\models\\cardpaymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\models\\cardpaymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +46,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankPaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Controllers\\BankPaymentsController.cs",
+              "RelativeDocumentMoniker": "bank.Api\\Controllers\\BankPaymentsController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Controllers\\BankPaymentsController.cs",
+              "RelativeToolTip": "bank.Api\\Controllers\\BankPaymentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T21:58:48.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankPaymentStore.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Infrastructure\\BankPaymentStore.cs",
+              "RelativeDocumentMoniker": "bank.Api\\Infrastructure\\BankPaymentStore.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Infrastructure\\BankPaymentStore.cs",
+              "RelativeToolTip": "bank.Api\\Infrastructure\\BankPaymentStore.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wBEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T21:58:17.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PayController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Controllers\\PayController.cs",
               "RelativeDocumentMoniker": "bank.Api\\Controllers\\PayController.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Controllers\\PayController.cs",
               "RelativeToolTip": "bank.Api\\Controllers\\PayController.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAADwv0QAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T15:55:10.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CardPaymentForm.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Models\\CardPaymentForm.cs",
               "RelativeDocumentMoniker": "bank.Api\\Models\\CardPaymentForm.cs",

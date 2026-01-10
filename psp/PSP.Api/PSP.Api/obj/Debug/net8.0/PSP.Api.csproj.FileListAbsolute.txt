@@ -30,3 +30,4 @@ C:\Users\PC\Desktop\Master\SEP\psp\PSP.Api\PSP.Api\obj\Debug\net8.0\refint\PSP.A
 C:\Users\PC\Desktop\Master\SEP\psp\PSP.Api\PSP.Api\obj\Debug\net8.0\PSP.Api.pdb
 C:\Users\PC\Desktop\Master\SEP\psp\PSP.Api\PSP.Api\obj\Debug\net8.0\PSP.Api.genruntimeconfig.cache
 C:\Users\PC\Desktop\Master\SEP\psp\PSP.Api\PSP.Api\obj\Debug\net8.0\ref\PSP.Api.dll
+C:\Users\PC\Desktop\Master\SEP\psp\PSP.Api\PSP.Api\obj\Debug\net8.0\PSP.Api.sourcelink.json

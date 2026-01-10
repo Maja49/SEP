@@ -30,3 +30,4 @@ C:\Users\PC\Desktop\Master\SEP\bank\bank.Api\bank.Api\obj\Debug\net8.0\refint\ba
 C:\Users\PC\Desktop\Master\SEP\bank\bank.Api\bank.Api\obj\Debug\net8.0\bank.Api.pdb
 C:\Users\PC\Desktop\Master\SEP\bank\bank.Api\bank.Api\obj\Debug\net8.0\bank.Api.genruntimeconfig.cache
 C:\Users\PC\Desktop\Master\SEP\bank\bank.Api\bank.Api\obj\Debug\net8.0\ref\bank.Api.dll
+C:\Users\PC\Desktop\Master\SEP\bank\bank.Api\bank.Api\obj\Debug\net8.0\bank.Api.sourcelink.json

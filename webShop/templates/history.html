@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>History</title></head>
+<body>
+  <p>Ulogovan/a kao: <b>{{ user }}</b> | <a href="{{ url_for('packages') }}">Packages</a> | <a href="{{ url_for('logout') }}">Logout</a></p>
+  <h2>History</h2>
+
+  {% if orders|length == 0 %}
+    <p>Nema još kupovina.</p>
+  {% else %}
+    <ul>
+      {% for o in orders %}
+        <li>
+          {{ o.created_at }} — {{ o.package.name }} — {{ o.package.price }} {{ o.package.currency }}
+          — <b>{{ o.status }}</b>
+          {% if o.payment_method %} ({{ o.payment_method }}){% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</body>
+</html>
