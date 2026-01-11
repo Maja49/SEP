@@ -14,6 +14,13 @@ PSP_BASE_URL = "https://localhost:7098"
 app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:2310@localhost:3306/sep_webshop"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
+app.config.update(
+    SESSION_COOKIE_SAMESITE="Lax",
+    SESSION_COOKIE_SECURE=False,
+    SESSION_COOKIE_HTTPONLY=True,
+)
+
+
 db.init_app(app)
 
 def require_login():
@@ -161,47 +168,45 @@ def buy_package(package_id: int):
 
 @app.route("/payment/success/<int:order_id>")
 def payment_success(order_id: int):
-    if not require_login():
-        return redirect(url_for("login"))
-
     o = Order.query.get_or_404(order_id)
-    if o.user_id != session["user_id"]:
-        return "Forbidden", 403
 
+    # uvek upiši status, bez obzira na login
     o.status = "SUCCESS"
     o.payment_method = "CARD"
     db.session.commit()
-    return render_template("payment_result.html", status="SUCCESS", order=o)
+
+    # ako je korisnik ulogovan i ovo je njegov order, pokaži rezultat
+    if require_login() and o.user_id == session.get("user_id"):
+        return render_template("payment_result.html", status="SUCCESS", order=o)
+
+    # ako nije ulogovan (ili nije njegov order), vrati ga na login
+    return redirect(url_for("login"))
 
 @app.route("/payment/failed/<int:order_id>")
 def payment_failed(order_id: int):
-    if not require_login():
-        return redirect(url_for("login"))
-
     o = Order.query.get_or_404(order_id)
-    if o.user_id != session["user_id"]:
-        return "Forbidden", 403
 
     o.status = "FAILED"
     o.payment_method = "CARD"
     db.session.commit()
-    return render_template("payment_result.html", status="FAILED", order=o)
+
+    if require_login() and o.user_id == session.get("user_id"):
+        return render_template("payment_result.html", status="FAILED", order=o)
+
+    return redirect(url_for("login"))
 
 @app.route("/payment/error/<int:order_id>")
 def payment_error(order_id: int):
-    if not require_login():
-        return redirect(url_for("login"))
-
     o = Order.query.get_or_404(order_id)
-    if o.user_id != session["user_id"]:
-        return "Forbidden", 403
 
     o.status = "FAILED"
     o.payment_method = "CARD"
     db.session.commit()
-    return render_template("payment_result.html", status="ERROR", order=o)
 
+    if require_login() and o.user_id == session.get("user_id"):
+        return render_template("payment_result.html", status="ERROR", order=o)
 
+    return redirect(url_for("login"))
 
 def seed_packages_if_empty():
     if Package.query.count() == 0:

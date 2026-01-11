@@ -70,8 +70,7 @@
               "RelativeToolTip": "PSP.Api\\Infrastructure\\PaymentStore.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T19:00:16.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T19:00:16.077Z"
             },
             {
               "$type": "Document",
@@ -81,7 +80,7 @@
               "RelativeDocumentMoniker": "PSP.Api\\Controllers\\PayController.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\psp\\PSP.Api\\PSP.Api\\Controllers\\PayController.cs",
               "RelativeToolTip": "PSP.Api\\Controllers\\PayController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAABQAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAcwFsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T18:13:38.782Z",
               "EditorCaption": ""
@@ -96,8 +95,7 @@
               "RelativeToolTip": "PSP.Api\\Controllers\\PaymentsController.cs",
               "ViewState": "AQIAACsAAAAAAAAAAAAQwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T13:02:59.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T13:02:59.244Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "PSP.Api\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAiwBUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T14:49:15.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T14:49:15.478Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "PSP.Api\\Models\\Bank\\BankInitResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T14:48:46.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T14:48:46.07Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "PSP.Api\\Models\\Bank\\BankInitRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T14:46:10.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T14:46:10.996Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "PSP.Api\\Models\\InitPaymentResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T13:01:50.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T13:01:50.638Z"
             },
             {
               "$type": "Document",

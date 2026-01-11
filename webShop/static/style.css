@@ -1,0 +1,131 @@
+:root {
+  --primary: #645CBB;
+  --secondary: #A084DC;
+  --accent: #BFACE2;
+  --soft: #EBE7F6;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--soft);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary);
+}
+
+.btn-outline-primary {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card-title {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* Tables */
+.table thead {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Status badges */
+.badge-success {
+  background-color: #28a745;
+}
+
+.badge-failed {
+  background-color: #dc3545;
+}
+
+/* Layout helpers */
+.page-wrap {
+  min-height: calc(100vh - 56px);
+  display: flex;
+  align-items: center;
+}
+
+.auth-card {
+  max-width: 420px;
+  width: 100%;
+  border-left: 8px solid var(--secondary);
+}
+
+.auth-title {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.form-control:focus {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 0.2rem rgba(160, 132, 220, 0.25);
+}
+
+.link-soft {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-soft:hover {
+  text-decoration: underline;
+}
+
+.alert-soft {
+  background: #ffffff;
+  border: 1px solid var(--accent);
+  color: #3a3570;
+  border-radius: 12px;
+}
+
+.brand-pill {
+  background: rgba(255,255,255,0.18);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.nav-user {
+  color: #fff !important;
+  opacity: 0.9;
+  margin-right: 12px;
+}
+
+.badge-created {
+  background-color: #6c757d;
+}
+
