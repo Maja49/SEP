@@ -1,13 +1,21 @@
 ﻿using bank.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 using bank.Api.Infrastructure;
-
+using bank.Api.DbContext;
+using Microsoft.EntityFrameworkCore;
 
 namespace bank.Api.Controllers
 {
     [ApiController]
     public class PayController : Controller
     {
+        private readonly BankDbContext _db;
+
+        public PayController(BankDbContext db)
+        {
+            _db = db;
+        }
+
         private static readonly TimeSpan PaymentTtl = TimeSpan.FromMinutes(5);
 
         // GET https://localhost:7094/pay/{paymentId}
@@ -131,7 +139,6 @@ a.link:hover{ text-decoration:underline; }
 </style>
 ";
 
-
         [HttpGet("/pay/{paymentId}")]
         public IActionResult PayPage([FromRoute] string paymentId)
         {
@@ -222,7 +229,7 @@ a.link:hover{ text-decoration:underline; }
 
         // POST https://localhost:7094/pay/{paymentId}/confirm
         [HttpPost("/pay/{paymentId}/confirm")]
-        public IActionResult Confirm([FromRoute] string paymentId, [FromForm] CardPaymentForm form)
+        public async Task<IActionResult> Confirm([FromRoute] string paymentId, [FromForm] CardPaymentForm form)
         {
             var orderId = Request.Query["orderId"].ToString();
 
@@ -237,8 +244,7 @@ a.link:hover{ text-decoration:underline; }
                 return Content(ResultHtml("FAILED", paymentId, "This payment was already used.", orderId), "text/html");
 
             // one-time: čim pokuša confirm, zaključaj transakciju (jedan pokušaj)
-            BankPaymentStore.MarkUsed(paymentId);
-
+            
             if (string.IsNullOrWhiteSpace(form.Pan) ||
                string.IsNullOrWhiteSpace(form.Expiry) ||
                string.IsNullOrWhiteSpace(form.Cvv) ||
@@ -268,6 +274,28 @@ a.link:hover{ text-decoration:underline; }
 
                 return Content(ResultHtml("FAILED", paymentId, "Card expired or invalid expiry format.", orderId), "text/html");
             }
+
+            BankPaymentStore.MarkUsed(paymentId);
+
+
+            using var tx = await _db.Database.BeginTransactionAsync();
+
+            var card = await _db.Cards.FirstOrDefaultAsync(c => c.Pan == panDigits);
+            if (card == null)
+            {
+                await tx.RollbackAsync();
+                return Content(ResultHtml("FAILED", paymentId, "Card not found.", orderId), "text/html");
+            }
+
+            if (card.Balance < state.Amount)
+            {
+                await tx.RollbackAsync();
+                return Content(ResultHtml("FAILED", paymentId, "Insufficient funds.", orderId), "text/html");
+            }
+
+            card.Balance -= state.Amount;
+            await _db.SaveChangesAsync();
+            await tx.CommitAsync();
 
             var globalTransactionId = Guid.NewGuid().ToString();
             return Content(ResultHtml("SUCCESS", paymentId, $"Approved. GlobalTransactionId: {globalTransactionId}", orderId), "text/html");

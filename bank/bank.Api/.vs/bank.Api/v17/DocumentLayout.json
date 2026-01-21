@@ -11,12 +11,36 @@
       "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\controllers\\bankpaymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\infrastructure\\bankpaymentstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\infrastructure\\bankpaymentstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\models\\cardchargeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\models\\cardchargeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\models\\cardchargerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\models\\cardchargerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\models\\cardpaymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\models\\cardpaymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\dbcontext\\bankdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\dbcontext\\bankdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|c:\\users\\pc\\desktop\\master\\sep\\bank\\bank.api\\bank.api\\infrastructure\\bankpaymentstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C159A79-529E-4B4B-B3F1-BE6E26493EF4}|bank.Api\\bank.Api.csproj|solutionrelative:bank.api\\infrastructure\\bankpaymentstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -52,22 +76,10 @@
               "RelativeDocumentMoniker": "bank.Api\\Controllers\\BankPaymentsController.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Controllers\\BankPaymentsController.cs",
               "RelativeToolTip": "bank.Api\\Controllers\\BankPaymentsController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAcAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwCgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T21:58:48.61Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BankPaymentStore.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Infrastructure\\BankPaymentStore.cs",
-              "RelativeDocumentMoniker": "bank.Api\\Infrastructure\\BankPaymentStore.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Infrastructure\\BankPaymentStore.cs",
-              "RelativeToolTip": "bank.Api\\Infrastructure\\BankPaymentStore.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA5wBEAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T21:58:17.555Z"
             },
             {
               "$type": "Document",
@@ -77,14 +89,105 @@
               "RelativeDocumentMoniker": "bank.Api\\Controllers\\PayController.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Controllers\\PayController.cs",
               "RelativeToolTip": "bank.Api\\Controllers\\PayController.cs",
-              "ViewState": "AQIAAMYAAAAAAAAAAAAAAM0AAAByAAAA",
+              "ViewState": "AQIAABIBAAAAAAAAAADwvykBAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T15:55:10.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CardChargeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Models\\CardChargeRequest.cs",
+              "RelativeDocumentMoniker": "bank.Api\\Models\\CardChargeRequest.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Models\\CardChargeRequest.cs",
+              "RelativeToolTip": "bank.Api\\Models\\CardChargeRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:38:09.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "bank.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\appsettings.json",
+              "RelativeToolTip": "bank.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-21T12:31:12.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Program.cs",
+              "RelativeDocumentMoniker": "bank.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Program.cs",
+              "RelativeToolTip": "bank.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:30:09.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BankDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\DbContext\\BankDbContext.cs",
+              "RelativeDocumentMoniker": "bank.Api\\DbContext\\BankDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\DbContext\\BankDbContext.cs",
+              "RelativeToolTip": "bank.Api\\DbContext\\BankDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:24:48.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "bank.Api\\Models\\Card.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Models\\Card.cs",
+              "RelativeToolTip": "bank.Api\\Models\\Card.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:22:37.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CardChargeResponse.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Models\\CardChargeResponse.cs",
+              "RelativeDocumentMoniker": "bank.Api\\Models\\CardChargeResponse.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Models\\CardChargeResponse.cs",
+              "RelativeToolTip": "bank.Api\\Models\\CardChargeResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:41:16.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BankPaymentStore.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Infrastructure\\BankPaymentStore.cs",
+              "RelativeDocumentMoniker": "bank.Api\\Infrastructure\\BankPaymentStore.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Infrastructure\\BankPaymentStore.cs",
+              "RelativeToolTip": "bank.Api\\Infrastructure\\BankPaymentStore.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswBEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T21:58:17.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CardPaymentForm.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Master\\SEP\\bank\\bank.Api\\bank.Api\\Models\\CardPaymentForm.cs",
               "RelativeDocumentMoniker": "bank.Api\\Models\\CardPaymentForm.cs",
@@ -92,7 +195,8 @@
               "RelativeToolTip": "bank.Api\\Models\\CardPaymentForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T15:54:11.101Z"
+              "WhenOpened": "2026-01-08T15:54:11.101Z",
+              "EditorCaption": ""
             }
           ]
         }
